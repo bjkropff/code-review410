@@ -11,7 +11,7 @@ describe('triTest', function(){
   expect(triTest(4,1,1)).to.equal("isosceles");
   });
 
-  // it("will take (4,4,4) and return 'equilateral'", function(){
-  // expect(triTest(4,4,4)).to.equal("equilateral");
-  // });
+  it("will take (4,4,4) and return 'equilateral'", function(){
+  expect(triTest(4,4,4)).to.equal("equilateral");
+  });
 });

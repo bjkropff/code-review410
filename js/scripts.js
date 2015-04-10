@@ -11,13 +11,19 @@ function triTest(side1, side2, side3) {
     if(side2 === side3 ){
       equalCount ++
     }
-  }
+
+    if(side1 === side3 ){
+      equalCount ++
+    }
+
+  }//closes first if
 
     if(equalCount === 1){
       result = 'isosceles';
-    // }else if (){
-    //   return false;
+
+    }else if(equalCount === 3){
+      result = 'equilateral';;
     }
     return result;
 
-}
+}//close function
