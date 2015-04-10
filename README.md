@@ -1,20 +1,22 @@
 # Triangle Checker
 ### Name: Brian Kropff
-### Date: April 4, 2015
+### Date: April 10, 2015
 
-Description: This
+Description: This is a web app that takes in three numbers and will return what type if triangle the three inputs make, if any. It will return that it is not a triangle if the three inputs cannot make a triangle (e.g. 3, 3, and 8) or on any input of 0,
 
-# SetUp and Use
-In order to use this program you will need a browser...NOT IE!
+### SetUp and Use
+In order to use this program you will need a web browser.
 
-SetUp
-1.
+To SetUp
+1.Clone this git repository ( git clone https://github.com/CountPacMan/triangleJS.git )
 
-# Copyright (c) 2015 (Name)
+2. Copy the full path of the file marked "index.html", and paste it into your browser (../code-review410/index.html)
 
-# The MIT License (MIT)
+### Copyright (c) 2015, (Brian Kropff)
 
-# PERMISSION*
+### The MIT License (MIT)
+
+### PERMISSION
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
 the Software without restriction, including without limitation the rights to
@@ -25,7 +27,7 @@ do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
  copies or substantial portions of the Software.
 
-# LICENSING*
+### LICENSING
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
