@@ -41,11 +41,22 @@ $(document).ready(function() {
     var c = parseInt($("input#side3").val());
 
     var triangle = triTest(a,b,c);
-    $("#result").text(triangle);
+    var type = "";
+
+    if (!triangle) {
+      $(".not").text("not");
+      triangle = "";
+    }else{
+      $(".not").text("");
+      type = ", type: ";
+    }
+
+    $("#result").text(type + triangle);
 
     $("#result").show();
-
     event.preventDefault();
 
+    $(".added").show();
+    event.preventDefault();
   });
 });

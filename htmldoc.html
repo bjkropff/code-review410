@@ -10,9 +10,9 @@
   </head>
   <body>
     <div class="container">
-      center
       <h1>Triangle Checker</h1>
-      <img src="images/tri.gif" alt="" />
+      <img src="images/tri.gif" alt="Triangle" />
+
       <form id="side-input">
         <label for="side1">Side 1</label>
         <input type="text" id="side1">
@@ -28,11 +28,14 @@
         <input type="text" id="side3">
         <br>
         <br>
-        <button type="submit">Check!</button>
+
+        <button type="submit" class="btn btn-success">Check!</button>
       </form>
       <br>
       <br>
-      <p id="result">This is an <span class"result"></span></p>
+      <div class="added">
+        <p>This is <span class="not"></span> a triangle<span id="result"></span>.</p>
+      </div>
     </div>
   </body>
 </html>

@@ -1,7 +1,8 @@
-# Name: Brian Kropff
-# Date: April 4, 2015
+# Triangle Checker
+### Name: Brian Kropff
+### Date: April 4, 2015
 
-Description:
+Description: This
 
 # SetUp and Use
 In order to use this program you will need a browser...NOT IE!

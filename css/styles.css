@@ -2,6 +2,10 @@
     display: none;
 }
 
+.added {
+    display: none;
+}
+
 img {
   height: 100px;
 }
